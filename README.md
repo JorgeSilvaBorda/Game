@@ -7,7 +7,7 @@ Para poder aplicarlo, se debe descargar previamente NW.js (https://nwjs.io/) y c
 
 El archivo package.json a generar en la raíz de nw.js debe contener lo siguiente:
 
-```json
+```javascript
 {
 	"name": "Game",
     "description": "Juego en desarrollo de pruebas",
