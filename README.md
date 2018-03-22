@@ -9,16 +9,22 @@ El archivo package.json a generar en la raíz de nw.js debe contener lo siguient
 
 ```javascript
 {
-	"name": "Game",
-    "description": "Juego en desarrollo de pruebas",
-	"version": "0.0.1",//Modificable
-	"main": "Game/index.html",
-	"repository": {
-		"type": "git",
-        "url": "https://github.com/JorgeSilvaBorda/Game.git"
-	},
-    "keywords": [],
-    "author": "Jorge Silva Borda",
-    "homepage": "https://github.com/JorgeSilvaBorda/Game"
+  "name": "Game",
+  "description": "Juego en desarrollo de pruebas",
+  "version": "0.0.1",
+  "main": "Game/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JorgeSilvaBorda/Game.git"
+  },
+  "keywords": [],
+  "author": "Jorge Silva Borda",
+  "homepage": "https://github.com/JorgeSilvaBorda/Game",
+  "window":{
+    
+    "frame": true,
+    "min_width": 800,
+    "min_height": 600
+  }
 }
 ```
